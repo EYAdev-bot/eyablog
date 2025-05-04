@@ -2,10 +2,10 @@
 
 session_start();
 
-$servername= "mysql-yann-dev.alwaysdata.net";
-$dbname= "yann-dev_ecommerce1";
-$username= "yann-dev";
-$password= "eya-dev";
+$servername= "sql101.infinityfree.com";
+$dbname= "if0_38903125_eya";
+$username= "if0_38903125";
+$password= "ekanga123";
 
 try {
     $conn=new PDO("mysql:host=$servername;dbname=$dbname; $username,$password");
